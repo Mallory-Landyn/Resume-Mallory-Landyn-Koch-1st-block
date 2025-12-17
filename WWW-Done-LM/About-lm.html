@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    body { 
+        Background:#E77471;
+    }
+    header {
+      text-align: center;
+      background: url("Images/Ker.jpg");
+      background-size: cover;
+      color: orange;
+    }
+    a {
+      color: cyan;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/thwop.jpg">
+<style> img {
+ width: 50%;
+ height: auto;
+}
+</style>
+    <h1>Mallorys Blog</h1>
+   <ul>
+      <li><a href="Index.html">Splash Page</a></li>
+      <li><a href="About-lm.html">About</a></li>
+      <li><a href="Education-lm.html">Education</a></li>
+      <li><a href="Experience-lm.html">Experience</a></li>
+      <li><a href="References-lm.html">References</a></li>
+    </ul>
+
+  </header>
+  <article>
+    <h2>Landyn Mallory</h2>
+    <p>My name is Landyn Mallory, a 17-year-old young man with big dreams. I've lived in Benton, Kentucky, my whole life, and have no one to thank more than my Mom.
+<br>
+ I've had a rocky high school experience, but I am determined to come out on top despite the hardships. 
+<br>
+I'm in the process of recovering from intense shoulder Injury/surgery. I've been working at Benton Subway since I was 16 and have kept that job ever since.
+<br>
+ I am looking into going into the Engineering program at WKCTC and pursuing a career in that field.
+<br>
+I am set to get my full license in March of 2026, and have worked hard to become proficient in driving despite my healing shoulder.
+<br>
+I've always taken a liking to 3D printing and the possibilities of the technology, and have made it a point to familiarize myself with the software.
+ </p>
+    <button>Like</button>
+  </article>
+   <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
